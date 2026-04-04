@@ -51,9 +51,15 @@ $9 is nothing. The output is everything.
 
 ---
 
-## [BUY NOW — $9](https://gumroad.com/l/forge-prompts)
+## [BUY NOW — $9](https://xadenai.gumroad.com/l/lyeyll)
 
 *Instant delivery. Lifetime access. No subscription.*
+
+---
+
+## 📖 Read More
+
+[15 AI Prompts That 10x Your Dev Workflow](https://dev.to/xadenai/15-ai-prompts-that-10x-your-dev-workflow-302k) — free deep-dive on how these prompts are built and why they work.
 
 ---
 
