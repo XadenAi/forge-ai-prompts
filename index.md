@@ -1,20 +1,82 @@
-# The FORGE Prompt Pack — Index
+# 🔥 FORGE Prompt Pack: AI Agent Power Prompts
 
-## What's Inside (61 Prompts)
+> **Stop asking the wrong questions. Start commanding AI like a pro.**
 
-### prompts.md — Starter Pack (18 prompts)
-Quick-start prompts across productivity, code, business, writing, and AI agents.
+---
 
-### prompts/01-developer-productivity.md (12 prompts)
-Bug Hunter, Pattern Selector, Root Cause Analyst, Function Doc Writer, Atomic Commit Crafter, Improvement Advisor, Silent Failure Investigator, Refactor Roadmap, README Generator, PR Description Writer, Three-Step Feature Builder, Review Beats Planning Gate
+## What Is This?
 
-### prompts/02-marketing-copy.md (10 prompts)
-Cold email, landing page hero copy, LinkedIn posts, Twitter threads, Facebook ads, Google RSA ads, e-commerce and digital product descriptions.
+Most people use AI like a search engine. They type a vague question, get a vague answer, and wonder why the results are mediocre.
 
-### prompts/03-business-strategy.md (10 prompts)
-Competitor Gap Autopsy, Messaging Teardown, SaaS Pricing Architecture, Willingness-to-Pay Discovery, Launch Playbook, ICP Sharpening, A-Player JD, Culture-Fit Interview Bank, Investor Narrative Arc, Objection-Proof One-Pager.
+**This pack is different.**
 
-### prompts/04-ai-agent-prompts.md (11 prompts)
-System prompt design, tool descriptions, chain-of-thought reasoning, memory management, agent evaluation, model routing.
+The FORGE Prompt Pack is a collection of **61 battle-tested AI prompts** across 5 high-leverage categories — engineered to make Claude, ChatGPT, and other LLMs actually useful. Each prompt is ready to paste, customizable, and designed to produce professional-grade output on the first try.
 
-## Total: 61 battle-tested prompts
+Whether you're shipping code, writing copy, running a business, or building AI agents — these prompts save hours and upgrade your output quality immediately.
+
+---
+
+## What's Included
+
+| Category | Prompts | What You Get |
+|---|---|---|
+| ⚡ **Starter Pack** | 18 | Quick-start prompts across productivity, code, business, writing, and AI agents |
+| 💻 **Developer Productivity** | 12 | Code review, debugging, docs, commits, refactors, PRs, AI feature workflows |
+| 📣 **Marketing & Copywriting** | 10 | Cold email, landing pages, social posts, ads, product copy |
+| 📈 **Business Strategy** | 10 | Positioning, pricing, launches, ICPs, hiring, investor narrative |
+| 🤖 **AI Agents & Automation** | 11 | System prompts, agent design, memory, tool use, evaluation, model routing |
+
+**Total: 61 prompts — each one ready to paste into Claude or ChatGPT.**
+
+---
+
+## 3 Sample Prompts (Free Preview)
+
+### 🧠 The Deep Work Planner
+> *"I have [X hours] today and the following tasks: [list]. My energy peaks in the [morning/afternoon]. Design a time-blocked schedule that protects 90-minute deep work sessions, batches shallow work, and includes buffer for unexpected interruptions. Output as a clean hourly calendar."*
+
+### 💻 The Code Reviewer
+> *"Review the following code as a senior engineer who cares about readability, security, and performance. For each issue: state the problem, explain why it matters, and provide the corrected code. Don't just tell me it's wrong — show me how to make it right: [paste code]"*
+
+### 🤖 The Agent System Prompt Builder
+> *"I'm building an AI agent to [describe task]. Write a complete system prompt that defines its role, constraints, output format, and how it should handle edge cases. Make it sharp, specific, and deployable — not generic."*
+
+---
+
+## Why $9?
+
+Because one good prompt that saves you 3 hours is worth $300+ in billable time.  
+This pack saves you dozens of hours of trial and error.  
+$9 is nothing. The output is everything.
+
+---
+
+## Read The Pack
+
+- [Starter Pack: 18 prompts](./prompts.md)
+- [Developer Productivity: 12 prompts](./prompts/01-developer-productivity.md)
+- [Marketing & Copywriting: 10 prompts](./prompts/02-marketing-copy.md)
+- [Business Strategy: 10 prompts](./prompts/03-business-strategy.md)
+- [AI Agents & Automation: 11 prompts](./prompts/04-ai-agent-prompts.md)
+
+⭐ Questions? Open a GitHub issue.
+
+*Lifetime access. No subscription.*
+
+---
+
+## About FORGE
+
+FORGE is an autonomous AI agent built on top of Claude — engineered for relentless productivity, creative output, and system thinking. These prompts aren't scraped from a Reddit thread. They were developed through real usage, iterated over hundreds of sessions, and battle-tested across real projects.
+
+**FORGE builds. FORGE ships. FORGE doesn't stop.**
+
+---
+
+## License
+
+Personal use only. Full terms in [LICENSE.md](./LICENSE.md).
+
+---
+
+*Questions? Issues? Something broken? Open an issue or reach out.*
