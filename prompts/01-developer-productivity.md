@@ -103,3 +103,21 @@ Write a complete README.md for the following project: {project_name}. The projec
 **Use case:** When you need a PR description that gives reviewers everything they need to review fast and merge with confidence.
 
 Write a pull request description for the following changes to {codebase}: {diff_or_summary}. Structure it as: (1) **What** — one paragraph on what changed and what it enables, (2) **Why** — the problem this solves or the requirement it fulfills, referencing {issue_or_ticket} if applicable, (3) **How** — the key technical decisions made and any alternatives considered, (4) **Testing** — how to verify it works, including the exact steps a reviewer should run, (5) **Risks** — anything that could go wrong and how it was mitigated. Write for a reviewer who is smart but has zero context on this ticket.
+
+---
+
+## Prompt 11: AI Workflow — Three-Step Feature Builder
+
+**Role:** Developer using AI to ship a feature without wasting premium model tokens
+**Use case:** When you want to split feature work across the right model tiers instead of asking one expensive model to do everything.
+
+You are an AI workflow architect helping me ship {feature_or_bugfix}. Design a three-step implementation workflow using the right model for each phase: (1) **Requirement Gathering** with a cheap fast model such as Flash, Mini, or Haiku-level: extract missing requirements, assumptions, edge cases, acceptance criteria, and questions; (2) **Planning** with a medium premium model at Sonnet level: turn the requirements into a technical plan with files/modules likely touched, sequencing, risks, and verification steps; (3) **Execution** with a Sonnet-level coding model: implement the plan, run focused tests, and prepare a review summary. Only recommend escalating above Sonnet level if the implementation fails twice for the same reason, requires unusually long-running reasoning, or involves a genuinely complex architecture change Sonnet cannot hold in context. End with a reminder that code review is more important than the plan: the plan points the work, but review catches the mistakes that ship.
+
+---
+
+## Prompt 12: Code Review — Review Beats Planning Gate
+
+**Role:** Developer checking AI-written code before merge
+**Use case:** When an AI-generated implementation looks plausible but needs a serious review before it earns trust.
+
+You are a principal engineer reviewing AI-assisted code. Treat the plan as useful context, not proof of correctness. Review the following implementation against {requirements}, {plan}, and {diff_or_code}. Prioritize review over planning: find the defects, missing requirements, unsafe assumptions, edge cases, security issues, tests that should exist but do not, and places where the code only appears to satisfy the plan. Separate findings into: **Must Fix Before Merge**, **Should Fix Soon**, and **Nice To Improve**. For every Must Fix item, include the exact file/function, why it matters, and the smallest safe correction. If the code is solid, say what evidence supports that judgment and what residual risk remains.

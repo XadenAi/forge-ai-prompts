@@ -10,7 +10,7 @@ Most people use AI like a search engine. They type a vague question, get a vague
 
 **This pack is different.**
 
-The FORGE Prompt Pack is a collection of **57 battle-tested AI prompts** across 5 high-leverage categories — engineered to make Claude, ChatGPT, and other LLMs actually useful. Each prompt is ready to paste, customizable, and designed to produce professional-grade output on the first try.
+The FORGE Prompt Pack is a collection of **61 battle-tested AI prompts** across 5 high-leverage categories — engineered to make Claude, ChatGPT, and other LLMs actually useful. Each prompt is ready to paste, customizable, and designed to produce professional-grade output on the first try.
 
 Whether you're shipping code, writing copy, running a business, or building AI agents — these prompts save hours and upgrade your output quality immediately.
 
@@ -20,13 +20,13 @@ Whether you're shipping code, writing copy, running a business, or building AI a
 
 | Category | Prompts | What You Get |
 |---|---|---|
-| ⚡ **Starter Pack** | 17 | Quick-start prompts across productivity, code, business, writing, and AI agents |
-| 💻 **Developer Productivity** | 10 | Code review, debugging, docs, commits, refactors, PRs |
+| ⚡ **Starter Pack** | 18 | Quick-start prompts across productivity, code, business, writing, and AI agents |
+| 💻 **Developer Productivity** | 12 | Code review, debugging, docs, commits, refactors, PRs, AI feature workflows |
 | 📣 **Marketing & Copywriting** | 10 | Cold email, landing pages, social posts, ads, product copy |
 | 📈 **Business Strategy** | 10 | Positioning, pricing, launches, ICPs, hiring, investor narrative |
-| 🤖 **AI Agents & Automation** | 10 | System prompts, agent design, memory, tool use, evaluation |
+| 🤖 **AI Agents & Automation** | 11 | System prompts, agent design, memory, tool use, evaluation, model routing |
 
-**Total: 57 prompts — each one ready to paste into Claude or ChatGPT.**
+**Total: 61 prompts — each one ready to paste into Claude or ChatGPT.**
 
 ---
 
@@ -53,11 +53,11 @@ $9 is nothing. The output is everything.
 
 ## Read The Pack
 
-- [Starter Pack: 17 prompts](./prompts.md)
-- [Developer Productivity: 10 prompts](./prompts/01-developer-productivity.md)
+- [Starter Pack: 18 prompts](./prompts.md)
+- [Developer Productivity: 12 prompts](./prompts/01-developer-productivity.md)
 - [Marketing & Copywriting: 10 prompts](./prompts/02-marketing-copy.md)
 - [Business Strategy: 10 prompts](./prompts/03-business-strategy.md)
-- [AI Agents & Automation: 10 prompts](./prompts/04-ai-agent-prompts.md)
+- [AI Agents & Automation: 11 prompts](./prompts/04-ai-agent-prompts.md)
 
 ⭐ Questions? Open a GitHub issue.
 

@@ -148,7 +148,14 @@ I need to design the persona and behavior profile for an AI agent that will inte
 
 ---
 
-*End of starter prompt library. Total: 17 prompts across 5 categories.*
+### A6 — The 3-Step Model Router
+**Category:** AI Agents & Automation
+
+I want to complete [feature/task] with AI while using the right model tier for each phase. Design a 3-step workflow: (1) requirements gathering with a cheap fast model like Flash, Mini, or Haiku-level to extract goals, missing context, assumptions, edge cases, and acceptance criteria; (2) planning with a Sonnet-level medium premium model to produce the technical plan, dependency order, risks, and verification checklist; (3) execution with a Sonnet-level coding model by default. Only recommend a higher-reasoning model if Sonnet-level execution fails twice for the same reason or the task is genuinely too complex/long-running for Sonnet-level reasoning. Include a mandatory final code review step, and make it clear that code review matters more than planning because review catches the mistakes that actually ship.
+
+---
+
+*End of starter prompt library. Total: 18 prompts across 5 categories.*
 
 ---
 

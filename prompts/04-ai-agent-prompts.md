@@ -91,3 +91,12 @@ You are an AI evaluation framework designer. I need a production-ready evaluatio
 **Use case:** When you need to build a test suite that catches quality regressions whenever the agent's system prompt, tools, or underlying model is updated.
 
 You are a quality assurance engineer specializing in LLM agent systems. I need a regression test suite for an agent named {agent_name} that handles tasks of type: {task_type}. Design a suite of 10 test cases that covers: (1) the happy path — standard inputs that should always work, (2) edge cases — inputs at the boundary of the agent's defined scope, (3) refusal cases — inputs the agent should decline and how it should decline them, and (4) adversarial cases — inputs designed to make the agent produce plausible but wrong outputs. For each test case, specify: the input, the expected behavior (not just expected output — describe the behavior), and the failure signature — what a broken agent does instead. Format as a test suite table that can be run manually or fed into an automated eval harness.
+
+---
+
+## Prompt 11: Model Routing — Three-Step Agent Workflow
+
+**Role:** AI systems builder designing cost-aware agent routing
+**Use case:** When an agent needs to decide which model tier should handle requirements, planning, execution, escalation, and review.
+
+You are a model-routing architect for AI development workflows. Design a routing policy for an agent that completes {task_type}. The policy must use a three-step workflow: (1) **Requirement Gathering** goes to a cheap fast model such as Flash, Mini, or Haiku-level to extract goals, constraints, missing context, acceptance criteria, and clarification questions; (2) **Planning** goes to a Sonnet-level medium premium model to create the implementation plan, dependency order, risk scan, and verification checklist; (3) **Execution** stays on Sonnet-level by default for implementation and focused testing. Add an escalation rule: only use a higher-reasoning model after two failed Sonnet-level execution attempts, or when the task is clearly too complex for Sonnet-level context and reasoning. Add a review rule: code review has higher priority than planning quality. The routing policy must require a review pass that audits the final diff against requirements, tests, security, edge cases, and maintainability before calling the task done. Output the policy as a concise decision tree plus an example run.
