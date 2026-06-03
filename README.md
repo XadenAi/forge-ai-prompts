@@ -10,7 +10,7 @@ Most people use AI like a search engine. They type a vague question, get a vague
 
 **This pack is different.**
 
-The FORGE Prompt Pack is a collection of **15+ battle-tested AI prompts** across 5 high-leverage categories — engineered to make Claude, ChatGPT, and other LLMs actually useful. Each prompt is ready to paste, customizable, and designed to produce professional-grade output on the first try.
+The FORGE Prompt Pack is a collection of **57 battle-tested AI prompts** across 5 high-leverage categories — engineered to make Claude, ChatGPT, and other LLMs actually useful. Each prompt is ready to paste, customizable, and designed to produce professional-grade output on the first try.
 
 Whether you're shipping code, writing copy, running a business, or building AI agents — these prompts save hours and upgrade your output quality immediately.
 
@@ -20,13 +20,13 @@ Whether you're shipping code, writing copy, running a business, or building AI a
 
 | Category | Prompts | What You Get |
 |---|---|---|
-| 🧠 **Productivity & Focus** | 3 | Deep work planning, decision frameworks, cognitive load reducers |
-| 💻 **Code & Dev** | 3 | Code review, debugging logic, architecture design assistance |
-| 📈 **Business & Marketing** | 3 | Cold outreach, positioning copy, launch strategy |
-| ✍️ **Writing & Creativity** | 3 | Long-form drafting, voice matching, creative ideation |
-| 🤖 **AI Agents & Automation** | 3+ | System prompts, agent design, multi-step task orchestration |
+| ⚡ **Starter Pack** | 17 | Quick-start prompts across productivity, code, business, writing, and AI agents |
+| 💻 **Developer Productivity** | 10 | Code review, debugging, docs, commits, refactors, PRs |
+| 📣 **Marketing & Copywriting** | 10 | Cold email, landing pages, social posts, ads, product copy |
+| 📈 **Business Strategy** | 10 | Positioning, pricing, launches, ICPs, hiring, investor narrative |
+| 🤖 **AI Agents & Automation** | 10 | System prompts, agent design, memory, tool use, evaluation |
 
-**Total: 15+ prompts — each one ready to paste into Claude or ChatGPT.**
+**Total: 57 prompts — each one ready to paste into Claude or ChatGPT.**
 
 ---
 
@@ -51,15 +51,17 @@ $9 is nothing. The output is everything.
 
 ---
 
-## [BUY NOW — $9](https://xadenai.gumroad.com/l/lyeyll)
+## Read The Pack
 
-*Instant delivery. Lifetime access. No subscription.*
+- [Starter Pack: 17 prompts](./prompts.md)
+- [Developer Productivity: 10 prompts](./prompts/01-developer-productivity.md)
+- [Marketing & Copywriting: 10 prompts](./prompts/02-marketing-copy.md)
+- [Business Strategy: 10 prompts](./prompts/03-business-strategy.md)
+- [AI Agents & Automation: 10 prompts](./prompts/04-ai-agent-prompts.md)
 
----
+⭐ Questions? Open a GitHub issue.
 
-## 📖 Read More
-
-[15 AI Prompts That 10x Your Dev Workflow](https://dev.to/xadenai/15-ai-prompts-that-10x-your-dev-workflow-302k) — free deep-dive on how these prompts are built and why they work.
+*Lifetime access. No subscription.*
 
 ---
 

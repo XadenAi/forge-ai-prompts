@@ -148,7 +148,7 @@ I need to design the persona and behavior profile for an AI agent that will inte
 
 ---
 
-*End of prompt library. Total: 15 prompts across 5 categories.*
+*End of starter prompt library. Total: 17 prompts across 5 categories.*
 
 ---
 
